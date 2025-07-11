@@ -150,12 +150,12 @@
     <h2 class="class section-title">Contact</h2>
 
     <div class="class contact_container bd-grid">
-        <form action="" class="contact_form">
-            <input type="text" placeholder="Name" class="contact_input">
-            <input type="email" placeholder="Email" class="contact_input">
-            <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+        <form class="contact_form" id="form">
+            <input type="text" placeholder="Name" class="contact_input" id="name" name="name">
+            <input type="email" placeholder="Email" class="contact_input" id="email" name="email">
+            <textarea name="" id="message" cols="0" rows="10" class="contact_input" name="message" ></textarea>
 
-            <input type="button" value="Submit" class="contact_button button">
+            <input type="submit" value="Submit" class="contact_button button" id="submit-btn">
         </form>
     </div>
 </section>
@@ -178,6 +178,15 @@
 
 <script src="https://unpkg.com/scrollreveal"></script>
 
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('JXGA854_NuwW6akJu')
+</script>
+
+
+<script src="contact.js"></script>
   <script src="portfolio.js"></script>  
 </body>
 </html>

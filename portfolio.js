@@ -58,7 +58,8 @@ sr.reveal(".about_img", { delay: 400 })
 
 sr.reveal(".work_img", { interval: 200 })
 
-sr.reveal(".contact_input",{interval:200})
+sr.reveal(".contact_input", { interval: 200 })
+
 
 
 
